@@ -1,0 +1,32 @@
+{
+  "name": "gitbook-plugin-tbfed-pagefooter",
+  "description": "定制每篇文章的页脚，可以添加版权和显示文件修改时间",
+  "main": "index.js",
+  "version": "0.0.1",
+  "author": {
+    "name": "zhj3618",
+    "email": "zhj3618@gmail.com"
+  },
+  "keywords": [
+    "gitbook",
+    "gitbook-plugin",
+    "footer",
+    "modification"
+  ],
+  "engines": {
+    "gitbook": ">=2.4.3"
+  },
+  "homepage": "https://github.com/zhj3618/gitbook-plugin-tbfed-pagefooter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhj3618/gitbook-plugin-tbfed-pagefooter.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "Apache 2",
+  "dependencies": {
+    "moment": "^2.10.6"
+  }
+}
