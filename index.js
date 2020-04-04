@@ -16,7 +16,7 @@ module.exports = {
         _format = this.options.pluginsConfig['tbfed-pagefooter']['modify_format'] || _format;
 
         var _c = this.options.pluginsConfig['tbfed-pagefooter']['copyright'];
-        _copy = _c ? _c + ' all right reserved，' + _copy : _copy;
+        _copy = _c ? _c + ' all right reserved, ' + _copy : _copy;
       }
       var _copy = '<span class="copyright">'+_copy+'</span>'
       var str = ' \n\n<footer class="page-footer">' + _copy +
